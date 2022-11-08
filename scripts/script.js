@@ -16,8 +16,9 @@ $(function () {
       
         console.log('did we click the bbutton? yes!') ; 
   
-        let greetingOutput = 'Thank you for your business  ';
+        let greetingOutput = 'Thank you for your business ';
         greetingOutput += $("#fname").val(); 
+       
       
         $("#formOutput").text(greetingOutput); 
       
@@ -27,7 +28,7 @@ $(function () {
   
    
   
-    console.log("user name: " + $("#noSpaces").val());
+  
   
     // end of doc ready f/n
   });
