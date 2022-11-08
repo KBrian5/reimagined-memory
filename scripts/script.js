@@ -1,7 +1,3 @@
-$(function () {
-    //regular expression of only letters
-    let alphaRegex = /^[a-zA-Z]*$/;
-  
 
     //Creates submit button
       $( ":submit" ).css( "background", "green" );
@@ -30,5 +26,4 @@ $(function () {
   
   
   
-    // end of doc ready f/n
-  });
+   
